@@ -1,9 +1,13 @@
 package web.model;
 
+import java.util.List;
+
 public class Car {
-    String model;
-    String series;
-    int speed;
+    private String model;
+    private String series;
+    private int speed;
+    private List<Car> cars;
+
 
     public Car(String model, String series, int speed) {
         this.model = model;
